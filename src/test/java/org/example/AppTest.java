@@ -10,6 +10,9 @@ import junit.framework.TestSuite;
 public class AppTest 
     extends TestCase
 {
+    public static void main(String[] args) {
+        System.out.println("hello-world");
+    }
     /**
      * Create the test case
      *
@@ -31,8 +34,8 @@ public class AppTest
     /**
      * Rigourous Test :-)
      */
-    public void testApp()
-    {
-        assertTrue( true );
+    public void testApp() throws Exception {
+        System.out.println("111");
+        App.main(null);
     }
 }

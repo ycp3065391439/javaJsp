@@ -14,7 +14,11 @@ public class App
     public static void main( String[] args ) throws Exception {
         System.out.println( "MyBatisTest" );
         Mybatis mybatis = new Mybatis();
-        mybatis.selectAllBrand();
-        mybatis.selectById();
+//        mybatis.selectAllBrand();
+//        mybatis.selectByCondition();
+//        mybatis.insertBrand();
+//        mybatis.updateBrand();
+        mybatis.delectBrand();
+        mybatis.delectSomeBrand();
     }
 }
